@@ -1,0 +1,5 @@
+name: Crates
+version: 1.2
+api-version: 1.13
+author: Command_JO
+main: de.jo.crates.main.Main
