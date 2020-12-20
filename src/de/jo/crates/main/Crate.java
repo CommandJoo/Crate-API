@@ -163,12 +163,12 @@ public class Crate implements Listener {
 								cancel();
 
 							}
-						}.runTaskLater(Main.getPlugin(Main.class), 50L);
+						}.runTaskLater(CrateAPI.getPlugin(CrateAPI.class), 50L);
 						cancel();
 					}
 				}
 			}
-		}.runTaskTimer(Main.instance(), 0L, 1L);
+		}.runTaskTimer(CrateAPI.instance(), 0L, 1L);
 	}
 
 	public void verteilen(Inventory inv) {
